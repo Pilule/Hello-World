@@ -7,3 +7,6 @@ Saura-t-il éviter les tentations de Civilization?
 git fetch origin
 git checkout -b redme-edits origin/redme-edits
 git merge master
+git checkout master
+git merge --no-ff redme-edits
+git push origin master
